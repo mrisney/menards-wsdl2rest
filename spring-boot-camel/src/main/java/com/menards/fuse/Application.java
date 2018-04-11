@@ -11,13 +11,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 @SpringBootApplication
-public class SpringBootSwaggerApplication {
+public class Application {
 
     private static final String CAMEL_URL_MAPPING = "/api/*";
     private static final String CAMEL_SERVLET_NAME = "CamelServlet";
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootSwaggerApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
     @Bean

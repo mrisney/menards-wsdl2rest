@@ -9,11 +9,11 @@ public class DesignServiceRoute extends RouteBuilder {
 
     @Override
     public void configure() {
-        restConfiguration().component("servlet").bindingMode(RestBindingMode.json);
+       // restConfiguration().component("servlet").bindingMode(RestBindingMode.json);
 
-        rest("/designservice").get();
-        from("direct:talk")
-                .process(exchange -> {
-                });
+        //rest("/designservice").get();
+        //from("direct:talk")
+   //             .process(exchange -> {
+     //           });
     }
 }
