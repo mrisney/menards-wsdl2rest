@@ -1,7 +1,10 @@
-# spring-boot-camel-swagger-ui
+# menards-wsdl2rest
 
-This repository contains a demo of Spring Boot with Apache Camel and Swagger UI.
+This repository contains 
+1. The Menard DesignService.WSDL
+2. A Spring Boot Apache Camel project
+3. The output from the wsdl2rest tool [https://github.com/jboss-fuse/wsdl2rest ](https://github.com/jboss-fuse/wsdl2rest )
 
-* Spring Boot 1.5.9
-* Apache Camel 2.20.1
-* Swagger UI 2.2.8# menards-wsdl2rest
+* spring-boot-camel
+* wsdl
+* wsdl2rest
